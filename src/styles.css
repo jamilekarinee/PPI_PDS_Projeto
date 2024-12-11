@@ -1,0 +1,48 @@
+body{
+    font-family: Arial, Helvetica, sans-serif; 
+    background-color: #c9e1ff;
+} 
+:root{
+    --azul_escuro : #0570ff;
+}
+
+
+/* Cabeçalho */
+  .cabecalho {
+      display: flex;
+      background-color: var(--azul_escuro);      
+      height: 70px;
+      padding: 35px 40px; 
+  }
+  
+  .cabecalho__detalhes{
+      display: flex;
+      align-items: center;
+  }
+  .nome_site_rn{
+      font-family: 'Courier Prime', Arial, Helvetica, sans-serif; 
+      font-size: 19px; 
+      color: white;
+  }
+  .nome_site_denuncias{
+      font-family: 'Lexend', Arial, Helvetica, sans-serif; 
+      font-size: 20px; 
+      margin-left: 5px;
+      color: white;
+      margin-bottom: 5px;
+  } 
+
+/* Fim cabeçalho */ 
+
+option{
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: medium;
+}
+.detalhamento_problema{
+    width: 300px; 
+    height: 100px; 
+    resize: none; 
+    border: none; 
+    border: 4px; 
+    font-family: Arial, Helvetica, sans-serif;
+}
