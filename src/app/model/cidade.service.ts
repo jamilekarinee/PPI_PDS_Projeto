@@ -1,8 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { Title } from '@angular/platform-browser';
 import { Observable } from 'rxjs';
-import { Cidade } from './cidade';
 
 @Injectable({
   providedIn: 'root'
@@ -16,4 +14,4 @@ export class CidadeService {
   buscarCidade(): Observable<any> {
     return this.http.get<any>(`${this.API}/24/municipios`)
   }
-}
+} 
